@@ -11,7 +11,7 @@ def creator(request):
 
 def current_datetime(request):
     now = datetime.datetime.now()
-    return render(request, "current_datetime.html", {'current_datetime': now})
+    return render(request, "current_datetime.html", {'current_date': now})
 
 def current_datetime_ ():
     now = datetime.datetime.now()
